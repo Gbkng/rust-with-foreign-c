@@ -16,6 +16,9 @@ The entry point is `src/bin/main.rs`. To build and execute this entrypoint:
 cargo run
 ```
 
+The execution of `main.rs` outputs to the standard output the result of the
+execution of the `foo` function, which is a wrapper around a C function,
+through FFI.
 
 # Dependencies
 

@@ -1,0 +1,3 @@
+/target
+foreign-c/.zig-cache
+foreign-c/zig-out/lib
